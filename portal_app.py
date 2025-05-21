@@ -91,7 +91,7 @@ cards = [
     {"title": "Slider Prediksi", "image": "images/ai.png", "url": "https://ai-ipm-prediction.streamlit.app/"},
     {"title": "Peta AFI UFI", "image": "images/inklu.png", "url": "https://yedijara.github.io/peta-afi-ufi"},
     {"title": "Peta NTL", "image": "images/lampu.png", "url": "https://yedijara.github.io/peta-nl-afi-ufi/"},
-    {"title": "Klasifikasi", "image": "images/regstrat.png", "url": "https://kojkstrategy.streamlit.app/"},
+    {"title": "Targetted Strategy", "image": "images/regstrat.png", "url": "https://kojkstrategy.streamlit.app/"},
     {"title": "Peer Benchmarking", "image": "images/benchmark.png", "url": "https://peerbenchmark.streamlit.app/"},
 ]
 
