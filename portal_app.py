@@ -5,7 +5,7 @@ import base64
 
 st.set_page_config(layout="wide")
 
-# Import font roboto
+
 custom_css = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
@@ -21,7 +21,7 @@ def get_base64_bg(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-bg_base64 = get_base64_bg("images/bg-ai-2.png")
+bg_base64 = get_base64_bg("images/bg-ai.png")
 
 # Background and overlay
 st.markdown(f"""
@@ -38,9 +38,9 @@ st.markdown(f"""
         top: 0; left: 0; right: 0; bottom: 0;
         z-index: 0;
         background: linear-gradient(135deg,
-            rgba(220, 240, 255, 0.50),
-            rgba(180, 220, 255, 0.50),
-            rgba(130, 200, 255, 0.50));
+            rgba(255, 0, 255, 0.25),
+            rgba(0, 255, 255, 0.25),
+            rgba(0, 0, 255, 0.25));
         background-size: 400% 400%;
         animation: gradientShift 10s ease-in-out infinite;
         pointer-events: none;
@@ -88,7 +88,7 @@ st.write("")
 
 # Card data
 cards = [
-    {"title": "Slider Prediksi", "image": "images/ai.png", "url": "https://example.com/simulasi"},
+    {"title": "Slider Prediksi", "image": "images/ai.png", "url": "https://ai-ipm-prediction.streamlit.app/"},
     {"title": "Peta AFI UFI", "image": "images/inklu.png", "url": "https://yedijara.github.io/peta-afi-ufi"},
     {"title": "Peta NTL", "image": "images/lampu.png", "url": "https://yedijara.github.io/peta-nl-afi-ufi/"},
     {"title": "Klasifikasi", "image": "images/regstrat.png", "url": "https://example.com/ipm"},
