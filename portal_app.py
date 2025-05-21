@@ -92,7 +92,7 @@ cards = [
     {"title": "Peta AFI UFI", "image": "images/inklu.png", "url": "https://yedijara.github.io/peta-afi-ufi"},
     {"title": "Peta NTL", "image": "images/lampu.png", "url": "https://yedijara.github.io/peta-nl-afi-ufi/"},
     {"title": "Klasifikasi", "image": "images/regstrat.png", "url": "https://example.com/ipm"},
-    {"title": "Strategic Guide", "image": "images/benchmark.png", "url": "https://peerbenchmark.streamlit.app/"},
+    {"title": "Peer Benchmarking", "image": "images/benchmark.png", "url": "https://peerbenchmark.streamlit.app/"},
 ]
 
 # Base64 encode card images
