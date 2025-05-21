@@ -5,15 +5,16 @@ import base64
 
 st.set_page_config(layout="wide")
 
-# Link Roboto from Google Fonts
-st.markdown("""
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+# Import font roboto
+custom_css = """
 <style>
-html, body, .stApp {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
     font-family: 'Roboto', sans-serif !important;
 }
 </style>
-""", unsafe_allow_html=True)
+"""
+st.markdown(custom_css, unsafe_allow_html=True)
 
 # Encode background image
 def get_base64_bg(path):
